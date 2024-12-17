@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دورة تعلم البرمجة</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+    <!-- Hero Section -->
+    <header class="min-h-screen relative">
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20"></div>
+            <div class="absolute inset-0 backdrop-blur-sm"></div>
+        </div>
+        
+        <div class="relative container mx-auto px-4 py-20">
+            <div class="max-w-4xl mx-auto text-center space-y-8">
+                <div class="inline-block animate-bounce bg-gradient-to-r from-blue-500 to-purple-500 p-2 rounded-full mb-8">
+                    <span class="text-sm font-medium">سعر خاص - 250 درهم شهرياً</span>
+                </div>
+                
+                <h1 class="text-7xl font-black">
+                    <span class="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                        طور مهاراتك
+                    </span>
+                    <span class="block mt-2">في عالم البرمجة</span>
+                </h1>
+                
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    دورة شاملة في تطوير الويب مع أحدث التقنيات:
+                    <span class="text-blue-400">HTML</span>,
+                    <span class="text-purple-400">CSS</span>,
+                    <span class="text-pink-400">JavaScript</span>, و
+                    <span class="text-blue-400">React.js</span>
+                </p>
+
+                <div class="flex flex-wrap justify-center gap-4 mt-12">
+                    <button class="group relative px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-gray-100 transition-all duration-300">
+                        احجز مكانك الآن
+                        <span class="absolute right-4 top-1/2 transform -translate-y-1/2 group-hover:translate-x-2 transition-transform">←</span>
+                    </button>
+                    <button class="px-8 py-4 border border-white/30 rounded-full font-bold hover:bg-white/10 transition-all duration-300">
+                        تعرف على المزيد
+                    </button>
+                </div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-24">
+                <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                    <div class="w-12 h-12 bg-blue-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">جدول مرن</h3>
+                    <p class="text-gray-400">3 جلسات أسبوعية، كل جلسة 3 ساعات من التعلم المكثف عبر Zoom</p>
+                </div>
+
+                <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                    <div class="w-12 h-12 bg-purple-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">تعلم عملي</h3>
+                    <p class="text-gray-400">تدريب عملي مع مشاريع حقيقية ومتابعة مستمرة</p>
+                </div>
+
+                <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300">
+                    <div class="w-12 h-12 bg-pink-500/20 rounded-2xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6 text-pink-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">دعم مستمر</h3>
+                    <p class="text-gray-400">مجموعة دعم خاصة ومتابعة فردية لكل متدرب</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم المنهج -->
+    <section class="py-32 relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-black to-blue-900/20"></div>
+        <div class="relative container mx-auto px-4">
+            <h2 class="text-5xl font-black text-center mb-20">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                    رحلة التعلم
+                </span>
+            </h2>
+
+            <!-- المخطط الزمني -->
+            <div class="relative">
+                <!-- خط المسار -->
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-to-b from-blue-500 to-purple-500"></div>
+
+                <!-- المراحل -->
+                <div class="space-y-24">
+                    <!-- HTML -->
+                    <div class="relative">
+                        <div class="flex items-center justify-center mb-8">
+                            <div class="w-16 h-16 bg-blue-500/20 rounded-full border-4 border-blue-500 flex items-center justify-center">
+                                <span class="text-2xl font-bold">1</span>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300 max-w-2xl mx-auto">
+                            <h3 class="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                                HTML - أساسيات بناء صفحات الويب
+                            </h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        هيكلة الصفحات
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        العناصر الأساسية
+                                    </p>
+                                </div>
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        النماذج والجداول
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        الوسائط المتعددة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="relative">
+                        <div class="flex items-center justify-center mb-8">
+                            <div class="w-16 h-16 bg-purple-500/20 rounded-full border-4 border-purple-500 flex items-center justify-center">
+                                <span class="text-2xl font-bold">2</span>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300 max-w-2xl mx-auto">
+                            <h3 class="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                                CSS - تنسيق وتصميم المواقع
+                            </h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                                        التنسيقات الأساسية
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                                        Flexbox & Grid
+                                    </p>
+                                </div>
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                                        التصميم المتجاوب
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
+                                        الرسوم المتحركة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="relative">
+                        <div class="flex items-center justify-center mb-8">
+                            <div class="w-16 h-16 bg-pink-500/20 rounded-full border-4 border-pink-500 flex items-center justify-center">
+                                <span class="text-2xl font-bold">3</span>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300 max-w-2xl mx-auto">
+                            <h3 class="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-red-400">
+                                JavaScript - برمجة تفاعلية
+                            </h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                                        أساسيات البرمجة
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                                        التعامل مع DOM
+                                    </p>
+                                </div>
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                                        الأحداث والتفاعلات
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-pink-400 rounded-full mr-3"></span>
+                                        API والطلبات
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- React -->
+                    <div class="relative">
+                        <div class="flex items-center justify-center mb-8">
+                            <div class="w-16 h-16 bg-blue-500/20 rounded-full border-4 border-blue-500 flex items-center justify-center">
+                                <span class="text-2xl font-bold">4</span>
+                            </div>
+                        </div>
+                        <div class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10 hover:border-white/20 transition-all duration-300 max-w-2xl mx-auto">
+                            <h3 class="text-2xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">
+                                React.js - تطوير تطبيقات الويب
+                            </h3>
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        Components
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        Props & State
+                                    </p>
+                                </div>
+                                <div class="space-y-3">
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        Hooks
+                                    </p>
+                                    <p class="flex items-center text-gray-300">
+                                        <span class="w-2 h-2 bg-blue-400 rounded-full mr-3"></span>
+                                        إدارة الحالة
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج التسجيل -->
+    <section class="py-32 relative">
+        <div class="absolute inset-0 bg-gradient-to-b from-blue-900/20 to-purple-900/20"></div>
+        <div class="relative container mx-auto px-4 max-w-xl">
+            <h2 class="text-5xl font-black text-center mb-20">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                    سجل الآن
+                </span>
+            </h2>
+            <form class="bg-white/5 backdrop-blur-lg p-8 rounded-3xl border border-white/10">
+                <div class="space-y-6">
+                    <div>
+                        <label class="block text-gray-300 mb-2 text-sm">الاسم الكامل</label>
+                        <input type="text" 
+                               class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:border-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400/20 transition-all">
+                    </div>
+                    <div>
+                        <label class="block text-gray-300 mb-2 text-sm">البريد الإلكتروني</label>
+                        <input type="email" 
+                               class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:border-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400/20 transition-all">
+                    </div>
+                    <div>
+                        <label class="block text-gray-300 mb-2 text-sm">رقم الهاتف</label>
+                        <input type="tel" 
+                               class="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white focus:border-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400/20 transition-all">
+                    </div>
+                    <button type="submit" class="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-4 rounded-xl font-bold hover:from-blue-600 hover:to-purple-600 transition-all duration-300 transform hover:scale-[1.02]">
+                        إرسال الطلب
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>جميع الحقوق محفوظة �� 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
